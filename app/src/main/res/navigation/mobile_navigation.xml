@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_main"
+        android:name="com.example.call_center.fm_main"
+        android:label="Main"
+        tools:layout="@layout/fragment_fm_main" />
+
+    <fragment
+        android:id="@+id/nav_emergency"
+        android:name="com.example.call_center.fm_emergency"
+        android:label="Emergency"
+        tools:layout="@layout/fragment_fm_emergency" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.call_center.fm_help"
+        android:label="Help"
+        tools:layout="@layout/fragment_fm_help" />
+    <fragment
+        android:id="@+id/nav_request"
+        android:name="com.example.call_center.fm_request"
+        android:label="Request"
+        tools:layout="@layout/fragment_fm_request" />
+
+    <fragment
+        android:id="@+id/nav_aboutme"
+        android:name="com.example.call_center.fm_aboutme"
+        android:label="About Me"
+        tools:layout="@layout/fragment_fm_aboutme" />
+    <fragment
+        android:id="@+id/nav_facebook"
+        android:name="com.example.call_center.fm_Facebook"
+        android:label="Facebook"
+        tools:layout="@layout/fragment_fm__facebook" />
+</navigation>
