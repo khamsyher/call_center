@@ -20,7 +20,7 @@ public class fm_aboutme extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_fm_aboutme, container, false);
-        String url = "file://android_asset/aboutme.html";
+        String url = "file://android_asset/html/aboutme.html";
         WebView wv = (WebView) v.findViewById(R.id.wvAboutMe);
         wv.getSettings().setJavaScriptEnabled(true);
         return v;
